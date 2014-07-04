@@ -1,0 +1,3 @@
+show_note_common_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: ShowNoteCommonBundle:Default:index }

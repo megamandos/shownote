@@ -1,0 +1,4 @@
+show_note_common:
+    resource: "@ShowNoteCommonBundle/Resources/config/routing.yml"
+    prefix:   /
+

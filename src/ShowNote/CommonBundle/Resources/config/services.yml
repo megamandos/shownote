@@ -1,0 +1,7 @@
+parameters:
+#    show_note_common.example.class: ShowNote\CommonBundle\Example
+
+services:
+#    show_note_common.example:
+#        class: %show_note_common.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,3 +1,7 @@
 show_note_common_homepage:
     path:     /
     defaults: { _controller: ShowNoteCommonBundle:Default:index }
+
+show_note_common_homepage:
+    path:     /login
+    defaults: { _controller: ShowNoteCommonBundle:Login:login }

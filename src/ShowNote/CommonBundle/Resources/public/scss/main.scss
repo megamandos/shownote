@@ -1,3 +1,65 @@
-@import "theme"
+@import "theme";
+
+$navbar_height: 40px;
+
+body
+{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background: $background_light;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+
+html
+{
+    height: 100%;
+    width: 100%;
+}
+
+
+#navbar
+{
+    width: 100%;
+    height: $navbar_height;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 0px;
+    border-bottom: 1px solid $border_medium;
+    background: $background_dark;
+    color: $text_color_light;
+    text-align: left;
+}
+
+
+#navbar a
+{
+    color: $text_color_light;
+    text-decoration: none;
+    line-height: $navbar_height / 2;
+    padding: $navbar_height / 4;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+#content
+{
+    margin-top: $navbar_height;
+    padding: 8px;
+}
+
+
+
+
+
+
+
 
 

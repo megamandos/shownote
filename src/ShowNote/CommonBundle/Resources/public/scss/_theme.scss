@@ -6,3 +6,87 @@ $color4: #386CA8;
 $color5: #FBFEFB;
 $color6: #205081;
 $color7: #333333;
+$color8: #FFFFFF;
+
+$background_light: $color8;
+$background_dark: $color6;
+
+$border_light: $color7;
+$border_medium: $color2;
+
+$text_color_medium: $color7;
+$text_color_light: $color8;
+
+$border_radius_small: 3px;
+$border_radius_normal: 4px;
+$border_radius_large: 6px;
+
+$box_shadow_medium: $color7;
+
+
+label::after
+{
+    content: ':';
+}
+
+
+input[type=text],
+input[type=password],
+textarea
+{
+    border: 1px solid $border_light;
+    border-radius: $border_radius_small;
+    box-shadow: $box_shadow_medium 0px 1px 3px 0px inset;
+    box-sizing: border-box;
+
+    color: $text_color_medium;
+
+    display: inline-block;
+    line-height: 20px;
+    letter-spacing: normal;
+    padding: 4px 5px;
+    text-align: start;
+    text-indent: 0px;
+    text-shadow: none;
+    text-transform: none;
+    vertical-align: baseline;
+}
+
+
+button,
+input[type=submit]
+{
+    border: 1px solid $border_medium;
+    border-radius: $border_radius_small;
+    cursor: pointer;
+
+    padding: 4px 10px;
+
+    background-clip: border-box;
+    background-image: linear-gradient(white 0px, $color5 100%);
+    background-origin: padding-box;
+    background-size: auto;
+
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-width: 1;
+
+    box-sizing: border-box;
+    color: $text_color_medium;
+    text-shadow: white 0px 1px 0px;
+    display: inline-block;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+
+    text-align: center;
+    text-indent: 0px;
+
+    text-transform: none;
+    vertical-align: baseline;
+    white-space: nowrap;
+    word-spacing: 0px;
+    writing-mode: lr-tb;
+}

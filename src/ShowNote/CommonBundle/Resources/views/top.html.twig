@@ -12,9 +12,9 @@
         {% endblock %}
     </head>
     <body>
-        <div id="content">
-            {% block content %}
-            {% endblock %}
+        <div id="navbar">
+            <a href="{{ url('show_note_common_homepage') }}">SHOWNOTE</a>
         </div>
+        <div id="content">{% block content %}{% endblock %}</div>
     </body>
 </html>

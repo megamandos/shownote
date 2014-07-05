@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title %}ShowNote{% endblock %}</title>
+
+        {% block javascripts %}
+            <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        {% endblock %}
+
+        {% block stylesheets %}
+            <link rel="stylesheet" type="text/css" href="{{ asset('css/main.css') }}" />
+        {% endblock %}
+    </head>
+    <body>
+        <div id="content">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </body>
+</html>
